@@ -1,16 +1,17 @@
 .topheader {
   position: fixed;
   background-color: gray;
-  width: 100%;
+  width: 100%; 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem ;
+  padding: 0 1.2rem ;
 }
 .topheader img{
-  width: 20px;
-  height: 20px;
+  width: 70%;
+
 }
+
 
 .menu-horizontal {
   list-style: none;
@@ -51,12 +52,6 @@
   color: blue;
 }
 
-.logo {
-  width: 25rem;
-  height: 25rem;
-  display: flex;
-  align-items: left;
-}
 /*seccion menu*/
 .seccion-productos {
   padding: 3.75rem 25rem;
