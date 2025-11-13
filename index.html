@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--seccion del logo y menus-->
+    <nav class="topheader">
+      <a href="#" class="logo">
+        <img src="" alt="" />
+        <img height="0.625rem" width="0.625rem" src="upc-logo.svg" alt="" />
+      </a>
+      <ul class="menu-horizontal">
+        <li><a href="#">Productos</a></li>
+        <li>
+          <a href="#">Servicios</a>
+          <ul class="menu-vertical">
+            <li><a href="#">Pago Servicios</a></li>
+            <li><a href="#">Pago Impuestos</a></li>
+            <li><a href="#">Transeferencias</a></li>
+            <li><a href="#">Financieras</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Banca por Internet</a></li>
+
+        <li><a href="#">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--seccion del logo y menus-->
+
+    <!--seccion prosductos-->
+
+    <section class="seccion-productos">
+      <div class="division-general-productos">
+        <div class="division-productos-txt">
+          <h1>bloc de notas</h1>
+          <p>
+            Tu asistente personal en el bolsillo. Recordatorios automáticos
+            Nunca más olvides una cita o pendiente. Recibe notificaciones justo
+            cuando las necesites.
+          </p>
+          <p>
+            Planificación inteligente Organiza tus tareas por prioridad,
+            categoría o tiempo disponible. La app te sugiere el mejor momento
+            para realizarlas según tu ritmo diario. Modo personal y profesional
+            Alterna entre tu vida personal y laboral sin mezclar tareas. ¡Mantén
+            el equilibrio perfecto!
+          </p>
+        </div>
+
+        <div class="division-productos-img">
+          <img src="ima3.png" alt="imagen de golf" />
+        </div>
+      </div>
+    </section>
+
+    <!--seccion banca-->
+
+    <section class="seccion-banca">
+      <div class="division-banca-productos">
+        <div class="division-banca-txt">
+          <h1>banca</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            enim perferendis, repellat aspernatur doloribus amet accusantium
+            provident officiis aperiam delectus explicabo quos eaque magni alias
+            temporibus deserunt quam vero? Unde.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            enim perferendis, repellat aspernatur doloribus amet accusantium
+            provident officiis aperiam delectus explicabo quos eaque magni alias
+            temporibus deserunt quam vero? Unde.
+          </p>
+        </div>
+        <div class="division-banca-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/fI-iTYAwL6c?si=FHDu_bMl8J68MJ5S"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>Formulario Contactanos</h2>
+        <p>Complete todos los campos</p>
+        <form action="" class="formulario-contactanos">
+          <div class="campo">
+            <label for="Nombre"> Nombres Completos: </label>
+            <div class="camp-txt">
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="ingrese sus nombres"
+              />
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="nombre"> Pais: </label>
+            <select name="pais" id="pais">
+              <option value="">Seleccione un pais de origen</option>
+              <option value="peru">Peru</option>
+              <option value="argentina">Argentina</option>
+              <option value="colombia">Colombia</option>
+              <option value="ecuador">Ecuador</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for=""> Interes: </label>
+            <ul class="lista-checkbox">
+              <li>
+                <label for=""
+                  ><input type="checkbox" name="intereses" value="a" /> a
+                </label>
+              </li>
+              <li>
+                <label for=""
+                  ><input type="checkbox" name="intereses" value="b" /> b
+                </label>
+              </li>
+              <li>
+                <label for=""
+                  ><input type="checkbox" name="intereses" value="c" /> c
+                </label>
+              </li>
+              <li>
+                <label for=""
+                  ><input type="checkbox" name="intereses" value="d" /> d
+                </label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="campo">
+            <label for="">Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label for=""
+                  ><input type="radio" name="sexo" value="masculino" />
+                  Masculino
+                </label>
+              </li>
+              <li>
+                <label for=""
+                  ><input type="radio" name="sexo" value="femenino" /> Femenino
+                </label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="botones">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="upc-logo.svg" alt="Logo" class="footer-logo" />
+            <p>EcoBrands</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="obtenerDocumento.pdf">Política de Privacidad</a>
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+.topheader {
+  position: fixed;
+  background-color: gray;
+  width: 100%;
+  max-height: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu-horizontal li a {
+  display: block;
+  text-decoration: none;
+}
+
+.menu-horizontal li a:hover {
+  color: red;
+}
+
+.menu-vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 9.375rem;
+  background-color: gainsboro;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical li a {
+  padding: 0.938rem 0.938rem 0.938rem 1.25rem;
+  margin: 0.313rem;
+}
+
+.menu-vertical li a:hover {
+  background-color: green;
+  color: blue;
+}
+
+.logo {
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  align-items: left;
+}
+/*seccion menu*/
+.seccion-productos {
+  padding: 3.75rem 25rem;
+  background-color: blue;
+}
+.division-general-productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 25rem;
+}
+.division-productos-txt {
+  flex: 1;
+}
+.division-productos-txt h1 {
+  color: red;
+  margin-bottom: 0.938rem;
+}
+.division-productos-txt p {
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+}
+.division-productos-img {
+  flex: 1;
+}
+.division-productos-img img {
+  width: 100%;
+  max-width: 31.25rem;
+}
+/*seccion menu-banca*/
+.seccion-banca {
+  padding: 3.75rem 25rem;
+}
+.division-banca-productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.division-banca-txt {
+  flex: 1;
+}
+.division-banca-txt h1 {
+  color: red;
+  margin-bottom: 0.938rem;
+}
+.division-banca-txt p {
+  color: black;
+  line-height: 1.6;
+  text-align: justify;
+}
+.division-banca-video {
+  flex: 1;
+}
+.division-banca-video iframe {
+  width: 100%;
+  max-width: 31.25rem;
+}
+
+.seccion-formulario {
+  background-color: #f0f8ff;
+  padding: 2.5rem;
+  border: 0.188rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.div-cont-formulario {
+  background-color: rgb(34, 192, 192);
+  padding: 1.875rem;
+  border: 0.125rem solid black;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 31.25rem;
+}
+
+.campo {
+  background-color: beige;
+  border: 0.063rem;
+  padding: 0.938rem;
+  margin-bottom: 0.938rem;
+  border-radius: 0.5rem;
+}
+.formulario-contactanos label {
+  display: block;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: chocolate;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.063rem solid rgb(255, 0, 0);
+  border-radius: 0.313rem;
+}
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 0.625rem;
+  margin: 0;
+  border: 0.063rem;
+  background-color: rgb(195, 174, 214);
+  border-radius: 0.313rem;
+}
+
+button {
+  background-color: #f0ec13;
+  padding: 0.625rem 25rem;
+  color: black;
+  border: 0.063rem solid black;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+.lista-checkbox input,
+.lista-radio input {
+  margin-right: 0.313rem;
+}
+.camp-txt input {
+  width: 96%;
+}
+.seccion-formulario button {
+  alig
+}
