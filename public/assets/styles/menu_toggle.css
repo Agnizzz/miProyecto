@@ -6,7 +6,9 @@
   border: none; /* Sin bordes */
   cursor: pointer; /* Manito al pasar el mouse */
   margin-right: 1rem; /* Espacio entre el borde derecho */
+
 }
+
 
 /* RESPONSIVE: MÓVILES */
 @media (max-width: 768px) {
@@ -23,6 +25,7 @@
     position: absolute;
     top: 5rem; /* Debajo del menú fijo */
     left: 0;
+ 
   }
 
   .menu-horizontal.active {
