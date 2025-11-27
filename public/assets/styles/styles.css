@@ -29,6 +29,9 @@ body {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  /* AGREGA ESTAS DOS LÍNEAS: */
+  margin: 0;   /* Elimina el empuje vertical */
+  padding: 0;  /* Elimina el relleno interno extra */
 }
 
 .menu-horizontal li a {
